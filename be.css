@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'win';
+    src: url('/fonts/windows-xp-tahoma.otf');
+}
+
+* {
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+   height: 100vh;
+   width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    background-image: url(/imgs/stars.gif);
+    filter: sepia(20%);
+    align-items: center;
+    
+   
+}
+
+.maincontent{ 
+
+    max-width: 50rem;
+    min-height: 40rem;
+    width: 100%;
+    padding: 1px;
+    align-items: center;
+    
+}
+
+.cont{
+    background-color: #c3c3c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    max-width: 50rem;
+    min-height: 37rem;
+    border-radius: 5px;
+    margin: 1em 1rem;
+    align-items: center;
+    
+    
+   
+}
+
+.cont a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    font-family: win;
+    font-weight: 500;
+}
+
+.links{
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+
+.head{
+
+    box-shadow: 1px 2px 1px 1px #fdffff inset;
+    background-color: #0a22be;
+    width: 50rem;
+    height: 2rem;
+    position: relative;
+    top: inherit;
+    display: flex;
+    text-align: center;
+align-items: center;
+flex-direction: row;
+flex-flow: row;
+width: 100%;
+max-width: 50rem;
+
+}
+
+.head a{
+    justify-self: end;
+    display: flex;
+    margin-left: auto;
+}
+
+.head button{ 
+    background-color: red;
+    color: white;
+    width: 1.5REM;
+    
+}
+
+.head h1{
+   font-family: win; 
+   padding: 1rem;
+   color: white;
+   font-size: 1.7rem;
+   font-weight: 500;
+   
+}
+
+@media (max-width: 768px){
+.main{ 
+    flex-direction: column;
+}
+
+}
+
+.main{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    max-width: 50rem;
+    margin-top: 30px;
+    box-shadow: 1px 1px 1px 1px, 1px 1px 1px 1px black inset;
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    max-width: 50rem;
+    margin-top: 30px;
+    box-shadow: 1px 1px 1px 1px, 1px 1px 1px 1px black inset;
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main h1{
+
+    font-size: 1.5rem;
+}
+
+
+.pc{
+    align-content: center;
+
+  background-color:#008080 ; 
+  width: 100%;
+  max-width: 48rem;
+  height: 28rem;
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+/*tratar disso, conseguir deixar um debaixo do outro*/
+    .imgss{
+        flex-direction: row;
+        padding-bottom: 3rem;
+        
+    }
+
+.text{
+color: rgb(240, 234, 233);
+    align-content: center;
+    padding-right: 2rem;
+    text-align:end;
+    font-family: win;
+    font-size: 2rem;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+
+}
+
+.textbe{
+    color: rgb(240, 234, 233);
+    align-content: center;
+    padding-right: 2rem;
+    text-align:end;
+    font-family: win;
+    font-size: 2rem;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}

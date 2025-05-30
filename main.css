@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'win';
+    src: url('/fonts/windows-xp-tahoma.otf');
+}
+
+* {
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+   height: 100vh;
+   width: 100vw;
+    background-color: #008080;
+   
+}
+
+
+
+.f {
+  width: 100vw;
+  height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0px 2px 1px 1px #fdffff inset;
+  background-color: #c3c3c3;
+  font-family: 'win', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 0.5em; 
+}
+
+.f a{
+    text-decoration: none;
+}
+
+.f button {
+   
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'win', sans-serif;
+  font-size: 1.5rem;
+  background-color: #c3c3c3;
+  box-shadow: 1px 2px 1px 1px #fdffff inset, 1px 2px 1px 1px #2c2c2c;
+  margin-left: 0.5em;
+  border: #c3c3c3;
+}
+
+.f button:hover {
+  background-color: #7c7c7c;
+  color: #c3c3c3;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.hh {
+  width: 6rem;
+  height: 2rem;
+  display: flex;
+ 
+  align-items: center;
+  font-family: 'win', sans-serif;
+  font-size: 1.5rem;
+  background-color: #c3c3c3;
+  box-shadow: 1px 1px 3px 1px #999999 inset, 1px 2px 1px 1px #fdffff;
+  border: #c3c3c3;
+}
+
+.tm{
+  padding-left: 1rem;
+}
+
+.hh button{
+
+    height: 1rem;
+    width: 1rem;
+}
+
+.icones{
+
+width: 5rem;
+    height: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 1rem;
+    
+    
+}
+.icones p{
+
+    color: #fdffff;
+}
+
+.icones img{
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.icones img:hover{
+    background-color: #2295ca86;
+   
+}
